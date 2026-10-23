@@ -25,8 +25,9 @@
 
 ## Pending Tasks
 
-* Select and approve a safe PCAP dataset.
-* Calculate and record the PCAP's SHA-256 hash.
+* Initialize the project repository using GitHub Desktop.
+* Create the initial commit.
+* Verify repository status before beginning packet analysis.
 * Verify reuse terms and dataset source details.
 * Approve and download the selected capture.
 * Preserve the original and calculate its SHA-256 hash.
