@@ -22,6 +22,7 @@
 * Located nb6-http.pcap in Downloads and copied its file path.
 * Calculated and recorded the SHA-256 hash of nb6-http.pcap.
 * Confirmed Git installation and identified the local project directory.
+* Committed the initial PROJECT\_STATUS.md.
 
 ## Pending Tasks
 
@@ -69,8 +70,8 @@
 
 ## GitHub Status
 
-* Repository: Not yet created.
-* Publication: Not started.
+* Local Git repository: Initialized.
+* Initial commit: Completed.
 
 ## LinkedIn Status
 
