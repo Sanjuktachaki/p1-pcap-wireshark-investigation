@@ -31,29 +31,8 @@
 
 ## Pending Tasks
 
-* Verify repository status before beginning packet analysis.
-* Verify reuse terms and dataset source details.
-* Approve and download the selected capture.
-* Preserve the original and calculate its SHA-256 hash.
-* Define the investigation question and begin packet analysis only after the dataset is verified.
-* Define the investigation question.
-* Preserve and verify the selected dataset.
 * Perform packet analysis and document evidence.
 * Complete the report and publication checks.
-
-## Evidence
-
-* No packet-analysis evidence collected yet.
-* File properties reported by the user: nb6-http.pcap, 8.60 KB; size on disk 12.0 KB
-* SHA-256 baseline: 8AF47406B623A45C2523BA3CA230D4B7B61F15C9C1DD85411A5F5E6F9210D0DF
-
-## Findings
-
-* No findings established.
-
-## Tests
-
-* No project tests performed yet.
 
 ## Decisions
 
@@ -70,22 +49,24 @@
 * Raw PCAP will not be redistributed through GitHub.
 * GitHub publication will link to the original Wireshark source.
 
-## Limitations
-
-* Dataset not yet selected.
-* No investigation conclusions are available.
-* Individual redistribution permission remains unconfirmed.
-* Independent published-hash comparison has not been performed.
-
 ## Initial technical inspection
 
-* &#x20;**Status:** Completed
-* &#x20;**Dataset:** nb6-http.pcap
-* &#x20;**Packet count:** 62
-* &#x20;**Capture duration:** 16 seconds
-* &#x20;**Encapsulation:** Ethernet
-* &#x20;**Wireshark opening errors:** None reported
-* &#x20;**Raw PCAP:** Not committed
+* **Status:** Completed
+* **Dataset:** nb6-http.pcap
+* **Packet count:** 62
+* **Capture duration:** 16 seconds
+* **Encapsulation:** Ethernet
+* **Wireshark opening errors:** None reported
+* **Raw PCAP:** Not committed
+
+## Protocol hierarchy analysis
+
+* **Status:** Completed
+* **Total frames:** 62
+* **Ethernet:** 62 packets
+* **IP:** 46 packets
+* **Additional protocols identified:** TCP, IPv6, ICMP, L2TP, LCP, UDP, HTTP, PPP, PPPoE and DNS
+* **Packet-level interpretation:** Pending
 
 ## GitHub Status
 
