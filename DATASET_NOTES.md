@@ -4,7 +4,7 @@
 
 * **Filename:** `nb6-http.pcap`
 * **Source:** Official Wireshark Sample Captures page
-* **Local location:** `C:\\\\\\\\Users\\\\\\\\jayan\\\\\\\\Downloads\\\\\\\\nb6-http.pcap`
+* **Local location:** `C:\\Users\\jayan\\Downloads\\nb6-http.pcap`
 * **Reported file size:** 8.60 KB
 * **Size on disk:** 12.0 KB
 
@@ -40,4 +40,20 @@ The source describes the capture as containing three HTTP requests across privat
 * **Local educational analysis:** Approved for this project
 * **Raw PCAP upload to GitHub:** Not permitted under current project decision
 * **Portfolio publication:** Analysis, documentation and evidence only; link to original capture
+
+## Initial Wireshark Inspection
+
+* **Name:** C:\\Users\\jayan\\Downloads\\nb6-http.pcap
+* **Length:** 8793 bytes
+* **Hash (SHA256):** 8af47406b623a45c2523ba3ca230d4b7b61f15c9c1dd85411a5f5e6f9210d0df
+* **Hash (SHA1):** ad71f9b42557d07311f420c36c3aae4da8378219
+* **Format:** Wireshark/tcpdump/... - pcap
+* **Encapsulation:** Ethernet
+* **Snapshot length:** 32767
+* **First packet:** 2014-01-02 14:07:49 
+* **Last packet:** 2014-01-02 14:08:06
+* **Elapsed:** 00:00:16
+* **Packets:** 62
+
+
 

@@ -23,11 +23,14 @@
 * Calculated and recorded the SHA-256 hash of nb6-http.pcap.
 * Confirmed Git installation and identified the local project directory.
 * Committed the initial PROJECT\_STATUS.md.
+* Created the initial dataset record using the reported file metadata and SHA-256 baseline.
+* Created DATASET\_NOTES.md.
+* Reviewed the official Wireshark capture description and source information.
+* Recorded the initial SHA-256 hash.
+* Confirmed the raw PCAP is excluded from Git changes.
 
 ## Pending Tasks
 
-* Initialize the project repository using GitHub Desktop.
-* Create the initial commit.
 * Verify repository status before beginning packet analysis.
 * Verify reuse terms and dataset source details.
 * Approve and download the selected capture.
@@ -62,16 +65,35 @@
 * Preferred candidate: nb6-http.pcap.
 * Reason: focused comparison of HTTP traffic across private IPv4, public IPv4 and public IPv6/L2TP contexts.
 * Approval status: pending reuse-terms verification and dataset acquisition; no packets analyzed; no findings or IOCs established.
+* Primary dataset: nb6-http.pcap.
+* Approved for local educational analysis.
+* Raw PCAP will not be redistributed through GitHub.
+* GitHub publication will link to the original Wireshark source.
 
 ## Limitations
 
 * Dataset not yet selected.
 * No investigation conclusions are available.
+* Individual redistribution permission remains unconfirmed.
+* Independent published-hash comparison has not been performed.
+
+## Initial technical inspection
+
+* &#x20;**Status:** Completed
+* &#x20;**Dataset:** nb6-http.pcap
+* &#x20;**Packet count:** 62
+* &#x20;**Capture duration:** 16 seconds
+* &#x20;**Encapsulation:** Ethernet
+* &#x20;**Wireshark opening errors:** None reported
+* &#x20;**Raw PCAP:** Not committed
 
 ## GitHub Status
 
 * Local Git repository: Initialized and verified.
 * Initial commit: Completed.
+* Local repository initialized.
+* Dataset documentation committed, according to your report.
+* Raw PCAP excluded.
 
 ## LinkedIn Status
 
