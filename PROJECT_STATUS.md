@@ -77,6 +77,16 @@
 * LCP fields identified: Code, Identifier, Length, Magic Number
 * Interpretation: Initial inspection only
 
+## LCP field inspection
+
+* Status: Completed
+* Packet: 20
+* LCP message: Echo-Request
+* Code: 9
+* Identifier: 36 (0x24)
+* Length: 8
+* Magic Number: 0xe7e18ff6
+
 ## GitHub Status
 
 * Local Git repository: Initialized and verified.
