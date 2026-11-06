@@ -68,6 +68,15 @@
 * **Additional protocols identified:** TCP, IPv6, ICMP, L2TP, LCP, UDP, HTTP, PPP, PPPoE and DNS
 * **Packet-level interpretation:** Pending
 
+## Packet-level protocol inspection
+
+* Status: Completed
+* Packet inspected: 20
+* Protocol: PPP LCP
+* Layers identified: Ethernet II, PPPoE Session, IPv4, UDP, L2TP, PPP and PPP LCP
+* LCP fields identified: Code, Identifier, Length, Magic Number
+* Interpretation: Initial inspection only
+
 ## GitHub Status
 
 * Local Git repository: Initialized and verified.
