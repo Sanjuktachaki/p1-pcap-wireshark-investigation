@@ -87,6 +87,18 @@
 * Length: 8
 * Magic Number: 0xe7e18ff6
 
+### HTTP request investigation
+
+* Status: Initial inspection completed
+* Display filter: http.request
+* Matching packets: 3
+* Packet numbers: 10, 38, 56
+* Request method: GET
+* Host and URI: Identified; exact values documented in DATASET\_NOTES.md
+* User-Agent: Present
+
+
+
 ## GitHub Status
 
 * Local Git repository: Initialized and verified.
