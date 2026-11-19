@@ -35,7 +35,10 @@ The investigation aimed to demonstrate:
 **Capture observations recorded:**
 
 * 62 packets
-* Approximately 16 seconds of capture duration
+* The capture spans approximately 16.767 seconds, based on the final packet's relative timestamp. 
+
+&#x20;   Wireshark's Capture File Properties displayed the elapsed duration as 00:00:16.
+
 * Ethernet link-layer encapsulation
 
 The investigation was restricted to the supplied sample capture.
@@ -156,10 +159,10 @@ The evidence supports a description of the observed network communication. It do
 
 ## 11\. Supporting Project Documents
 
-* `DATASET\_NOTES.md`
+* `DATASET\\\\\\\_NOTES.md`
 * `IOC ASSESSMENT.md`
 * `INVESTIGATION TIMELINE.md`
-* `Docs/investigation-methodology.md`
-* `Docs/reproducibility.md`
+* `Docs/INVESTIGATION METHODOLOGY.md`
+* `Docs/REPRODUCIBILITY.md`
 * `Evidence/`
 
