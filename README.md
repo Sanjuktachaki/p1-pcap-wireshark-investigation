@@ -63,6 +63,7 @@ The observed indicators were not classified as confirmed malicious based solely 
 ## Repository Structure
 
 
+
 p1-pcap-wireshark-investigation/
 ├── README.md
 
@@ -80,7 +81,7 @@ p1-pcap-wireshark-investigation/
 * `Docs/INVESTIGATION METHODOLOGY.md` — investigation methodology.
 * `Docs/REPRODUCIBILITY.md` — reproduction procedure.
 * `Filters/WIRESHARK FILTERS.md` — display filters used.
-* `Findings/IOC\_ASSESSMENT.md` — candidate indicator assessment.
+* `Findings/IOC ASSESSMENT.md` — candidate indicator assessment.
 * `Findings/INVESTIGATION TIMELINE.md` — selected packet events and timestamps.
 * `Findings/FINAL REPORT.md` — final investigation report.
 

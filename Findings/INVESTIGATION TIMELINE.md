@@ -15,9 +15,9 @@ Construct a chronological timeline of relevant DNS and HTTP activity observed in
 
 |Time (seconds)|Packet|Protocol|Observed Event|Evidence|
 |-:|-:|-|-|-|
-|0.033047|2|DNS|AAAA response for `ncdn.nb6ds1.neubox.neuf.fr`; transaction ID `0x0002`|DNS response details|
+|0.033047|2|DNS|AAAA response for `ncdn.nb6dsl.neufbox.neuf.fr`; transaction ID `0x0002`|DNS response details|
 |0.099073|6|DNS|Response with A records including `93.17.156.249` and `93.17.156.250`; transaction ID `0x0004`|DNS response details|
-|0.121887|10|HTTP|GET request to `ncdn.nb6ds1.neubox.neuf.fr`; destination `93.17.156.250`|HTTP request details|
+|0.121887|10|HTTP|GET request to `ncdn.nb6dsl.neufbox.neuf.fr`; destination `93.17.156.250`|HTTP request details|
 |7.484055|31|DNS|Response with no Answer Section; NOERROR ; transaction ID '0x0a89'|DNS response details|
 |7.502267|32|DNS|Response; transaction ID `0x56bb`;|DNS response details|
 |7.573715|33|DNS|Response containing A records for `ipv4.icanhazip.com`, including `216.69.252.100` and `216.69.252.101`; NOERROR|DNS response details|
@@ -30,15 +30,12 @@ Construct a chronological timeline of relevant DNS and HTTP activity observed in
 
 The capture contains DNS and HTTP activity across three chronological periods.
 
-* The first period contains DNS activity involving `ncdn.nb6ds1.neubox.neuf.fr`, followed by an HTTP GET request.
+* The first period contains DNS activity involving `ncdn.nb6dsl.neufbox.neuf.fr`, followed by an HTTP GET request.
 * The second period contains DNS responses involving `ipv4.icanhazip.com`, followed by an HTTP GET request.
 * The third period contains DNS activity involving `ipv6.icanhazip.com`, followed by an HTTP GET request.
-
-The recorded DNS transaction IDs must be considered when correlating queries and responses. Packets 2 and 6 have different transaction IDs (`0x0002` and `0x0004`), so they are not established as a matching transaction by the evidence recorded here.
-
-Some DNS responses contain no Answer Section despite reporting NOERROR. These observations are recorded without assuming that an address was returned.
-
-The HTTP requests demonstrate observed communication with the listed hosts and destination addresses. Their presence alone does not establish malicious activity.
+* The recorded DNS transaction IDs must be considered when correlating queries and responses.
+* Some DNS responses contain no Answer Section despite reporting NOERROR. These observations are recorded without assuming that an address was returned.
+* The HTTP requests demonstrate observed communication with the listed hosts and destination addresses. Their presence alone does not establish malicious activity.
 
 ## 5\. Evidence Limitations
 

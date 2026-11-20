@@ -99,7 +99,7 @@ Only observations supported by packet evidence were included.
 
 The investigation observations, analysis, limitations and conclusions were consolidated into:
 
-`../Findings/FINAL RECORD.md`
+`../Findings/FINAL REPORT.md`
 
 The report distinguishes observed network activity from confirmed security findings.
 

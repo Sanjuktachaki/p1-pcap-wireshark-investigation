@@ -85,7 +85,7 @@ The `http.request` display filter identified three HTTP GET requests.
 
 |Packet|Host|Destination|
 |-:|-|-|
-|10|`ncdn.nb6ds1.neubox.neuf.fr`|`93.17.156.250`|
+|10|`ncdn.nb6dsl.neufbox.neuf.fr`|`93.17.156.250`|
 |38|`ipv4.icanhazip.com`|`216.69.252.100`|
 |56|`ipv6.icanhazip.com`|`2606:f200:0:7:bad:f00d:d00d:1`|
 
