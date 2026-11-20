@@ -35,7 +35,7 @@ The investigation aimed to demonstrate:
 **Capture observations recorded:**
 
 * 62 packets
-* The capture spans approximately 16.767 seconds, based on the final packet's relative timestamp. 
+* The capture spans approximately 16.767 seconds, based on the final packet's relative timestamp.
 
 &#x20;   Wireshark's Capture File Properties displayed the elapsed duration as 00:00:16.
 
@@ -97,8 +97,6 @@ The investigation compared DNS information with the destinations of the three HT
 
 DNS responses contained address information associated with the observed hosts.
 
-However, DNS transaction IDs must be checked before describing a particular query and response as a confirmed matching transaction. For example, the recorded transaction IDs for packets 2 and 6 differ.
-
 The investigation therefore avoids overstating DNS correlation.
 
 ### 5.5 Candidate Indicators
@@ -159,7 +157,7 @@ The evidence supports a description of the observed network communication. It do
 
 ## 11\. Supporting Project Documents
 
-* `DATASET\\\\\\\_NOTES.md`
+* `DATASET\\\\\\\\\\\\\\\_NOTES.md`
 * `IOC ASSESSMENT.md`
 * `INVESTIGATION TIMELINE.md`
 * `Docs/INVESTIGATION METHODOLOGY.md`
